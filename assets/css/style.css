@@ -119,6 +119,12 @@ h1{
     top: 150px;
     left: 15px
 }
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
 #text {
     text-align: left;
     height: 270px;
@@ -310,4 +316,60 @@ h1{
 #rps {
     top: 535px;
     left: 55px;
+}
+
+@media screen and (max-width: 480px) {
+    #top {
+        width: 130vmax;
+        height: 11vh;
+        position: fixed;
+        top:0; 
+        z-index: 2
+    }
+    h1 {
+        margin-left: 70px;
+    }
+    #navbar {
+        margin-right: 165px;
+        font-size: 28px;
+    }
+
+    #bio {
+        height: 327vh;
+        width: 235vw;
+        margin: 150px 0 80px 10px;
+        left:0
+    }
+
+    #aboutme {
+        text-align: center;
+        font-size: 100px;
+        margin-bottom: 40px;
+        left: 0
+
+    }
+
+    #me {
+        width: 750px;
+        height: 500px;
+    }
+    img {
+        width: 225vw;
+        height: 65vh;
+        margin-top: 50px;
+    }
+    #text {
+        margin-left: 20px;
+        padding-top: 800px;
+        font-size: 50px
+
+    }
+    #text2 {
+        margin-left: 20px;
+        padding-top: 930px;
+        font-size: 50px
+    }
+
+
+
 }
