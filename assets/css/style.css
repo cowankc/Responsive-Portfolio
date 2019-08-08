@@ -214,14 +214,14 @@ img {
 
 #projectmenu {
     background-color: #ffffff;
-    width: 700px;
+    width: 960px;
     height: 850px;
     border-style: solid;
     border-width: 1px;
     border-color: lightgray;
     position: relative;
     top: 30px;
-    left: 28%;
+    left: 20%;
    margin-bottom: 80px
 }
 
@@ -240,12 +240,20 @@ img {
     margin-left: 15px
 }
 
-.projectpic {
-    margin: 20px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-    height: 200px;
-    width: 200px;
-    position: absolute;
+.work {
+    width: 275px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px
+}
+.work:nth-child(even) {
+    margin-right: 40px;
+}
+.work img {
+    width:100%;
+    border: 0 none;
+
 }
 
 .projectname {background-color: #4aaaa5;
@@ -258,61 +266,6 @@ img {
     text-align: center;
     position: relative;
     padding-top: 5px;
-}
-
-#hangmanpic {
-    background-image: url(../images/placeholder.jpg);
-    top: 50px;
-    left: 50px;
-}
-
-#hangman {
-    top: 185px;
-    left: 55px;
-}
-
-#rpgpic {
-    background-image: url(../images/placeholder.jpg);
-    top: 50px;
-    right: 50px;
-}
-
-#rpg {
-    top: 150px;
-    left: 435px;
-}
-
-#triviapic {
-    background-image: url(../images/placeholder.jpg);
-    top: 300px;
-    left: 50px;
-}
-
-#trivia {
-    top: 360px;
-    left: 55px;
-}
-
-#widgetpic {
-    background-image: url(../images/placeholder.jpg);
-    top: 300px;
-    right: 50px;
-}
-
-#widget {
-    top: 325px;
-    left: 435px;
-}
-
-#rpspic {
-    background-image: url(../images/placeholder.jpg);
-    top: 550px;
-    left: 50px;
-}
-
-#rps {
-    top: 535px;
-    left: 55px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -378,13 +331,11 @@ img {
         top: 165px;
         left: 10px;
 }
-#contact {
-    text-align: center;
-    font-size: 26px;
-    font-weight: bold;
-    padding-bottom: 5px;
-    width: 355px;
-    margin: 15px 0px 10px 0px;
+    #contact {
+        text-align: center;
+        padding-bottom: 5px;
+        width: 355px;
+        margin: 15px 0px 10px 0px;
     
 }
     #name {
@@ -405,4 +356,23 @@ img {
     .formtext {
         line-height: 35px;
     }
+/* for the portfolio page  */
+    #projectmenu {
+        width: 355px;
+        height: 1850px;
+        position: relative;
+        top: 155px;
+        left: 10px;
+        margin-bottom: 80px
+    }
+    #portfolio {
+        text-align: center;
+        padding-bottom: 5px;
+        width: 355px;
+        margin: 15px 0px 10px 0px;
+    }
+
+
+
+
 }
