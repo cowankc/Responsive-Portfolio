@@ -214,14 +214,14 @@ img {
 
 #projectmenu {
     background-color: #ffffff;
-    width: 960px;
+    width: 675px;
     height: 850px;
     border-style: solid;
     border-width: 1px;
     border-color: lightgray;
     position: relative;
     top: 30px;
-    left: 20%;
+    left: 28%;
    margin-bottom: 80px
 }
 
@@ -245,7 +245,7 @@ img {
     overflow: auto;
     position: relative;
     float: left;
-    margin: 20px 0 25px
+    margin: 20px 20px 25px 30px
 }
 .work:nth-child(even) {
     margin-right: 40px;
@@ -254,6 +254,26 @@ img {
     width:100%;
     border: 0 none;
 
+}
+.work-image {
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 25px;
+    float: left;
+}
+.work h3 {
+    width: 100%;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    padding: 15px 0 15px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+    
 }
 
 .projectname {background-color: #4aaaa5;
