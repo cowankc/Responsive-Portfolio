@@ -271,9 +271,7 @@ img {
     bottom: 20px;
     padding: 15px 0 15px 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-
-    
+    font-weight: bold; 
 }
 
 .projectname {background-color: #4aaaa5;
@@ -309,7 +307,7 @@ img {
 /* for the main bio page  */
     
     #bio {
-        height: 1700px;
+        height: 1650px;
         width: 355px;
         margin: 150px 0 80px 10px;
         left:0;
@@ -317,12 +315,15 @@ img {
 
     #aboutme {
         text-align: center;
-        font-size: 50px;
+        font-size: 26px;
         margin-bottom: 40px;
         width: 356px;
         left: 0;
+        top: 30px
     }
-    
+    #me {
+        top: 90px
+    }
     img {
         width: 300px;
         height: 200px;
@@ -330,13 +331,13 @@ img {
     }
     #text {
         margin-left: 20px;
-        padding: 370px 5px 0 5px;
+        padding: 315px 5px 0 5px;
         font-size: 26px;
 
     }
     #text2 {
         margin-left: 20px;
-        padding: 585px 5px 20px 5px ;
+        padding: 580px 5px 20px 5px ;
         font-size: 26px;
     }
 /* for the contact page */
@@ -379,7 +380,7 @@ img {
 /* for the portfolio page  */
     #projectmenu {
         width: 355px;
-        height: 1850px;
+        height: 1430px;
         position: relative;
         top: 155px;
         left: 10px;
@@ -390,6 +391,10 @@ img {
         padding-bottom: 5px;
         width: 355px;
         margin: 15px 0px 10px 0px;
+    }
+    .work-image {
+        margin: 10px 0px 25px 0px;
+
     }
 
 
