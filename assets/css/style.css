@@ -1,4 +1,5 @@
 /* this section of code will apply to all pages */
+
 body {
     background-image: url(../images/wood_pattern_@2X.png);
 }
@@ -396,9 +397,10 @@ img {
         margin: 10px 0px 25px 0px;
     }
 }
-@media only screen and (max-width: 786px) {
+
+@media only screen and (max-width: 768px) {
     #top {
-        width: 786pxx;
+        width: 768;
         height: 110px;
         position: fixed;
         top:0; 
@@ -409,39 +411,81 @@ img {
         height: 50px;
         margin-left: 45px;
         font-size: 40px;
-        /* padding: 15px 30px 15px 30px; */
     }
     #navbar {
-        margin: 45px 30px 0px 5px;
-        font-size: 26px;
+        margin: 45px 5px 0px 5px;
+        font-size: 20px;
     }
 
     /* for the main bio page  */
     
     #bio {
-        width: 860px;
-        height: 780px;
+        width: 718px;
+        height: 910px;
         left:0;
-        margin: 190px 25px 25px 25px
+        margin: 135px 25px 90px 25px
     }
 
     #text {
         font-size: 22px;
-        margin: 0 0 0 440px
-
+        padding-top: 470px;
+        margin: 20px 0 0 0
     }
     #text2 {
         font-size: 22px;
-        margin: 230px 0 0 0
+        margin: 0px 0 0 0
     }
     img {
         width: 400px;
         height: 300px;
-        margin-top: 30px 
+        margin-left: 145px; 
+
     }
     #aboutme {
         font-size: 40px;
-        width: 845px;
+        width: 660px;
         margin-bottom: 40px;
+    }
+    #me {
+        top: 135px;
+    }
+
+/* for the contact page */
+
+    #contactbox {
+        background-color: #ffffff;
+        width: 718px;
+        height: 500px;
+        position: relative;
+        top: 165px;
+        left: 0px;
+        margin: 0 25px 0 25px 
+    }
+    .formtext {
+        line-height: 58px;
+    }
+    #contact {
+    font-size: 40px;
+    }
+
+/* for the portfolio page  */
+
+    #projectmenu {
+        width: 718px;
+        height: 880px;
+        position: relative;
+        top: 155px;
+        left: 10px;
+        margin: 0 15px 80px 15px
+    }
+    .work-image {
+        margin: 10px 0px 25px 0px;
+    }
+    .work h3 {
+        position: absolute;
+        bottom: 45px;
+    }
+    #portfolio {
+        font-size: 40px;
     }
 }
