@@ -394,10 +394,54 @@ img {
     }
     .work-image {
         margin: 10px 0px 25px 0px;
-
+    }
+}
+@media only screen and (max-width: 786px) {
+    #top {
+        width: 786pxx;
+        height: 110px;
+        position: fixed;
+        top:0; 
+        z-index: 2;
+    }
+    h1 {
+        width: 275px;
+        height: 50px;
+        margin-left: 45px;
+        font-size: 40px;
+        /* padding: 15px 30px 15px 30px; */
+    }
+    #navbar {
+        margin: 45px 30px 0px 5px;
+        font-size: 26px;
     }
 
+    /* for the main bio page  */
+    
+    #bio {
+        width: 860px;
+        height: 780px;
+        left:0;
+        margin: 190px 25px 25px 25px
+    }
 
+    #text {
+        font-size: 22px;
+        margin: 0 0 0 440px
 
-
+    }
+    #text2 {
+        font-size: 22px;
+        margin: 230px 0 0 0
+    }
+    img {
+        width: 400px;
+        height: 300px;
+        margin-top: 30px 
+    }
+    #aboutme {
+        font-size: 40px;
+        width: 845px;
+        margin-bottom: 40px;
+    }
 }
