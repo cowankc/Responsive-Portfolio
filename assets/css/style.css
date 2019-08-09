@@ -287,120 +287,9 @@ img {
     padding-top: 5px;
 }
 
-@media only screen and (max-width: 480px) {
-    #top {
-        width: 375px;
-        height: 110px;
-        position: fixed;
-        top:0; 
-        z-index: 2;
-    }
-    h1 {
-        width: 220px;
-        margin-left: 45px;
-        font-size: 30px;
-        padding: 15px 30px 15px 30px;
-    }
-    #navbar {
-        margin: 15px 0px 0px 5px;
-        font-size: 20px;
-    }
-/* for the main bio page  */
-    
-    #bio {
-        height: 1650px;
-        width: 355px;
-        margin: 150px 0 80px 10px;
-        left:0;
-    }
-
-    #aboutme {
-        text-align: center;
-        font-size: 26px;
-        margin-bottom: 40px;
-        width: 356px;
-        left: 0;
-        top: 30px
-    }
-    #me {
-        top: 90px
-    }
-    img {
-        width: 300px;
-        height: 200px;
-        margin: 0px 0px 0px 15px;
-    }
-    #text {
-        margin-left: 20px;
-        padding: 315px 5px 0 5px;
-        font-size: 26px;
-
-    }
-    #text2 {
-        margin-left: 20px;
-        padding: 580px 5px 20px 5px ;
-        font-size: 26px;
-    }
-/* for the contact page */
-    #contactbox {
-        background-color: #ffffff;
-        width: 355px;
-        height: 500px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: lightgray;
-        position: relative;
-        top: 165px;
-        left: 10px;
-}
-    #contact {
-        text-align: center;
-        padding-bottom: 5px;
-        width: 355px;
-        margin: 15px 0px 10px 0px;
-    
-}
-    #name {
-        width: 300px;
-    }
-
-    #email {
-        width: 300px;
-    }
-
-    #message {
-        width: 300px;
-        height: 185px;
-        position: absolute;
-        bottom: 60px;
-        left: 0px
-    }
-    .formtext {
-        line-height: 35px;
-    }
-/* for the portfolio page  */
-    #projectmenu {
-        width: 355px;
-        height: 1430px;
-        position: relative;
-        top: 155px;
-        left: 10px;
-        margin-bottom: 80px
-    }
-    #portfolio {
-        text-align: center;
-        padding-bottom: 5px;
-        width: 355px;
-        margin: 15px 0px 10px 0px;
-    }
-    .work-image {
-        margin: 10px 0px 25px 0px;
-    }
-}
-
 @media only screen and (max-width: 768px) {
     #top {
-        width: 768;
+        width: 100%;
         height: 110px;
         position: fixed;
         top:0; 
@@ -409,7 +298,7 @@ img {
     h1 {
         width: 275px;
         height: 50px;
-        margin-left: 45px;
+        margin-left: 20px;
         font-size: 40px;
     }
     #navbar {
@@ -487,5 +376,118 @@ img {
     }
     #portfolio {
         font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #top {
+        width: 100%;
+        height: 140px;
+        position: fixed;
+        top:0; 
+        z-index: 2;
+    }
+    h1 {
+        width: 220px;
+        margin-left: 50px;
+        font-size: 30px;
+        padding: 15px 30px 15px 30px;
+    }
+    #navbar {
+        margin: 15px 0px 0px 5px;
+        font-size: 20px;
+    }
+/* for the main bio page  */
+    
+    #bio {
+        height: 1650px;
+        width: 355px;
+        margin: 150px 0 80px 10px;
+        left:0;
+    }
+
+    #aboutme {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 40px;
+        width: 356px;
+        left: 0;
+        top: 30px
+    }
+    #me {
+        top: 90px
+    }
+    img {
+        width: 300px;
+        height: 200px;
+        margin: 0px 0px 0px 15px;
+    }
+    #text {
+        margin-left: 20px;
+        padding: 315px 5px 0 5px;
+        font-size: 26px;
+
+    }
+    #text2 {
+        margin-left: 20px;
+        padding: 580px 5px 20px 5px ;
+        font-size: 26px;
+    }
+/* for the contact page */
+    #contactbox {
+        background-color: #ffffff;
+        width: 355px;
+        height: 500px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgray;
+        position: relative;
+        top: 165px;
+        margin: 0 0 0 10px
+}
+    #contact {
+        text-align: center;
+        padding-bottom: 5px;
+        width: 355px;
+        margin: 15px 0px 10px 0px;
+        font-size: 36px;
+    
+}
+    #name {
+        width: 300px;
+    }
+
+    #email {
+        width: 300px;
+    }
+
+    #message {
+        width: 300px;
+        height: 185px;
+        position: absolute;
+        bottom: 60px;
+        left: 0px
+    }
+    .formtext {
+        line-height: 26px;
+    }
+/* for the portfolio page  */
+    #projectmenu {
+        width: 355px;
+        height: 1430px;
+        position: relative;
+        top: 165px;
+        left: 0;
+        margin: 0 0 80px 10px
+    }
+    #portfolio {
+        text-align: center;
+        padding-bottom: 5px;
+        width: 355px;
+        margin: 15px 0px 10px 0px;
+        font-size: 36px;
+    }
+    .work-image {
+        margin: 10px 0px 25px 0px;
     }
 }
