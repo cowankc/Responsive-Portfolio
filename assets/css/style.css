@@ -286,7 +286,85 @@ img {
     position: relative;
     padding-top: 5px;
 }
+@media only screen and (max-width: 980px) {
+    #top {
+        width: 100%;
+        height: 90px;
+        position: fixed;
+        top:0; 
+        z-index: 2;
+    }
+    h1 {
+        width: 275px;
+        height: 30px;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    #navbar {
+        margin: 45px 5px 0px 5px;
+        font-size: 20px;
+    }
 
+/* for the about me page  */
+
+    #bio {
+        width: 930px;
+        height: 535px;
+        left:0;
+        margin: 100px 25px 90px 25px
+    }
+    #text {
+        margin-right: 0;
+    }
+    #text2 {
+        margin: 10px 0 0 0;
+    }
+    #aboutme {
+        font-size: 40px;
+        width: 865px;
+        margin-bottom: 40px;
+    }
+
+    /* for the contact page  */
+
+    #contactbox {
+        width: 930px;
+        height: 450px;
+        position: relative;
+        top: 120px;
+        left: 0px;
+        margin: 0 25px 0 25px 
+    }
+    .formtext {
+        line-height: 90px;
+    }
+    #name {
+        width: 800px;
+    }
+
+    #email {
+        width: 800px;
+    }
+
+    #message {
+        width: 800px;
+        height: 130px;
+        position: absolute;
+        bottom: 60px;
+        left: 75px
+    }
+    #contact {
+        padding-bottom: 5px;
+        width: 880px;
+        margin: 15px 0px 10px 25px;
+    }
+    #projectmenu {
+        width: 685px;
+        height: 810px;
+        left:0;
+        margin: 100px 147px 90px 147px
+    }
+}
 @media only screen and (max-width: 768px) {
     #top {
         width: 100%;
@@ -334,6 +412,7 @@ img {
         font-size: 40px;
         width: 660px;
         margin-bottom: 40px;
+        top: 15px
     }
     #me {
         top: 135px;
@@ -342,20 +421,35 @@ img {
 /* for the contact page */
 
     #contactbox {
-        background-color: #ffffff;
         width: 718px;
         height: 500px;
         position: relative;
-        top: 165px;
+        top: 155px;
         left: 0px;
-        margin: 0 25px 0 25px 
+        margin: 0 25px 80px 25px 
     }
     .formtext {
-        line-height: 58px;
+        line-height: 45px;
     }
-    #contact {
-    font-size: 40px;
+    #name {
+        width: 650px;
     }
+
+    #email {
+        width: 650px;
+    }
+
+    #message {
+        width: 650px;
+        height: 130px;
+        position: absolute;
+        bottom: 60px;
+        left: 0
+    }
+        #contact {
+        font-size: 40px;
+        width: 650px
+        }
 
 /* for the portfolio page  */
 
@@ -379,30 +473,31 @@ img {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
     #top {
         width: 100%;
-        height: 140px;
+        height: 70px;
         position: fixed;
         top:0; 
         z-index: 2;
     }
     h1 {
         width: 220px;
-        margin-left: 50px;
-        font-size: 30px;
+        height: 40px;
+        margin-left: 5px;
+        font-size: 26px;
         padding: 15px 30px 15px 30px;
     }
     #navbar {
-        margin: 15px 0px 0px 5px;
-        font-size: 20px;
+        margin: 30px 5px 0 5px;
+        font-size: 12px;
     }
 /* for the main bio page  */
     
     #bio {
         height: 1650px;
         width: 355px;
-        margin: 150px 0 80px 10px;
+        margin: 80px 0 80px 25%;
         left:0;
     }
 
@@ -438,12 +533,9 @@ img {
         background-color: #ffffff;
         width: 355px;
         height: 500px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: lightgray;
         position: relative;
-        top: 165px;
-        margin: 0 0 0 10px
+        top: 0;
+        margin: 100px 0 80px 25%
 }
     #contact {
         text-align: center;
@@ -476,9 +568,9 @@ img {
         width: 355px;
         height: 1430px;
         position: relative;
-        top: 165px;
+        top: 0;
         left: 0;
-        margin: 0 0 80px 10px
+        margin: 100px 0 80px 25%
     }
     #portfolio {
         text-align: center;
